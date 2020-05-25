@@ -1,0 +1,64 @@
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    top: 15%;
+    background: linear-gradient(to right, #5e8ee8, #20df85);
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font: 600 2em 'Raleway', sans-serif;
+    }
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    margin-top: 5px;
+}
+
+.buttonStyle {
+    box-shadow: inset 0px 0px 15px 3px rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 17px;
+    border: 1px solid #1f2f47;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1.1em;
+    padding: 6px 13px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.buttonStyle:hover {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.buttonStyle:active {
+    position: relative;
+    top: 1px;
+}
